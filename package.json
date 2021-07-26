@@ -27,6 +27,7 @@
     ]
   },
   "dependencies": {
+    "aos": "2.3.4",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
@@ -34,6 +35,7 @@
   "devDependencies": {
     "@commitlint/cli": "12.1.4",
     "@commitlint/config-conventional": "12.1.4",
+    "@types/aos": "3.0.4",
     "@types/node": "14.17.5",
     "@types/react": "17.0.14",
     "@types/react-dom": "17.0.9",
