@@ -119,14 +119,9 @@ export default function Home() {
 
         <div className={styles.grid}>
           {animations.map((animation) => (
-            <div
-              className={styles.card}
-              key={animation}
-              data-aos={animation}
-              data-aos-delay={200}
-            >
+            <div className={styles.card} key={animation} data-aos={animation}>
               <h2>{animation}</h2>
-              <p>{`<div data-aos=${animation}></div>`}</p>
+              <code>{`<div data-aos=${animation}></div>`}</code>
             </div>
           ))}
         </div>
