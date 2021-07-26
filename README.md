@@ -1,37 +1,24 @@
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/26466516/118417547-e9409d00-b68a-11eb-8162-6afccf9288a9.png" alt="Next.js TypeScript Starter">
-</p>
+# nextjs-with-aos-example
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=5e17eb&labelColor=000000" alt="PRs welcome!" />
+🔺 NEXT.JS - Example project using Next.js with Animate On Scroll Library.
 
-  <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/typescript-nextjs-starter?style=for-the-badge&color=5e17eb&labelColor=000000">
+## 💬 Explanations
 
-  <a href="https://twitter.com/intent/follow?screen_name=jpedroschmitz">
-    <img src="https://img.shields.io/twitter/follow/jpedroschmitz?style=for-the-badge&color=5e17eb&labelColor=000000" alt="Follow @jpedroschmitz" />
-  </a>
-</p>
+This project was created from the need to implement `reveal scroll animations` in projects using [Next.js](https://nextjs.org/).
+As simple as it sounds, most of the time it becomes a headache when you start running into performance issues from multiple additions of event listeners to your site's DOM.
+One solution is to externalize this responsibility using AOS.
+However this has some points of attention such as for example:
+- [Initialize AOS](https://github.com/BrunoS3D/nextjs-with-aos-example/blob/461faf6325f8599ee09f226d15774c8905e2fdab/src/pages/_app.tsx#L10) with your page
+- [Infer styles](https://github.com/BrunoS3D/nextjs-with-aos-example/blob/461faf6325f8599ee09f226d15774c8905e2fdab/src/pages/_document.tsx#L18) for AOS to work on browsers whose javascript has been disabled
 
-<br>
-
-A TypeScript starter for Next.js that includes all you need to build amazing projects 🔥
-
-- 📏 **ESLint** — Pluggable JavaScript linter
-- 💖 **Prettier** - Opinionated Code Formatter
-- 🐶 **Husky** — Use git hooks with ease
-- 📄 **Commitizen** - Conventional commit messages CLI
-- 🚓 **Commitlint** - Lint commit messages
-- 🖌 **Renovate** - Dependency update tool
-- 🚫 **lint-staged** - Run linters against staged git files
-- 👷 **PR Workflow** - Run Type Check & Linters on pull requests
-- 🗂 **Absolute import** - Import folders and files using the `@` prefix
+With this I decided to create a template that helps me in creating projects with next using everything that is best created by my friend [João Pedro Schmitz](https://github.com/jpedroschmitz).
 
 ## 🚀 Getting started
 
 The best way to start with this template is using `create-next-app`.
 
 ```
-npx create-next-app ts-next -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+npx create-next-app ts-next -e https://github.com/brunos3d/nextjs-with-aos-example
 ```
 
 If you prefer you can clone this repository and run the following commands inside the project folder:
@@ -41,13 +28,6 @@ If you prefer you can clone this repository and run the following commands insid
 
 To view the project open `http://localhost:3000`.
 
-## 🤝 Contributing
-
-1. Fork this repository;
-2. Create your branch: `git checkout -b my-new-feature`;
-3. Commit your changes: `git commit -m 'Add some feature'`;
-4. Push to the branch: `git push origin my-new-feature`.
-
 **After your pull request is merged**, you can safely delete your branch.
 
 ## 📝 License
@@ -56,4 +36,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ---
 
-Made with ♥ by João Pedro Schmitz
+Template made by [João Pedro Schmitz](https://github.com/jpedroschmitz)
+
+AOS Implementations made with 💜 by [Bruno Silva](https://github.com/brunos3d)
