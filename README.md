@@ -1,6 +1,6 @@
 # nextjs-with-aos-example
 
-🔺 NEXT.JS - Example project using Next.js with Animate On Scroll Library.
+🔺 NEXT.JS - Example project using Next.js with [Animate On Scroll Library](https://www.npmjs.com/package/aos).
 
 ### 🚀 [Demo](https://nextjs-with-aos-example.vercel.app/)
 
@@ -8,7 +8,7 @@
 
 This project was created from the need to implement `reveal scroll animations` in projects using [Next.js](https://nextjs.org/).
 As simple as it sounds, most of the time it becomes a headache when you start running into performance issues from multiple additions of event listeners to your site's DOM.
-One solution is to externalize this responsibility using AOS.
+One solution is to externalize this responsibility using [AOS](https://www.npmjs.com/package/aos).
 However this has some points of attention such as for example:
 - [Initialize AOS](https://github.com/BrunoS3D/nextjs-with-aos-example/blob/461faf6325f8599ee09f226d15774c8905e2fdab/src/pages/_app.tsx#L10) with your page
 - [Infer styles](https://github.com/BrunoS3D/nextjs-with-aos-example/blob/461faf6325f8599ee09f226d15774c8905e2fdab/src/pages/_document.tsx#L18) for AOS to work on browsers whose javascript has been disabled
