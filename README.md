@@ -2,6 +2,8 @@
 
 🔺 NEXT.JS - Example project using Next.js with Animate On Scroll Library.
 
+### 🚀 [Demo](https://nextjs-with-aos-example.vercel.app/)
+
 ## 💬 Explanations
 
 This project was created from the need to implement `reveal scroll animations` in projects using [Next.js](https://nextjs.org/).
