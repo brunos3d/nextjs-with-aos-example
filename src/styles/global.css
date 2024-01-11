@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.flex{
+  display: flex;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.features-desc{
+  margin: 2px 24px 32px 24px;
+}
